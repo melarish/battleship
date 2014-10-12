@@ -125,7 +125,7 @@ def play(current_ships):
             print("You missed my battleship!")
             board[guess_row][guess_col] = "X"
         if turn == 19:
-            print("Game Over. You Phail.")
+            print("Game Over. You lose.")
         print_board()
 
 
